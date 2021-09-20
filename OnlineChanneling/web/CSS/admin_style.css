@@ -1,0 +1,84 @@
+/*
+===============================
+		Doctor Details
+===============================
+*/
+
+.adddocpanel{
+    width: 420px;
+    height: 520px;
+    background: rgba(255, 255, 255, 0.521);
+    color: rgb(0, 0, 0);
+    top: 35%;
+    left: 42%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+}
+.adddocpanel h1{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+	margin-bottom: 30px;
+}
+.adddocpanel p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.adddocpanel input{
+    width: 175px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    height: 30px;
+}
+
+.adddocpanel input[type="text"], input[type="email"], select{
+	width: 100%;
+    border: none;
+    border-bottom: 1px solid #12408f;
+    background: rgba(255, 255, 255, 0.8);
+    outline: none;
+    height: 30px;
+    color: #000;
+    font-size: 15px;
+}
+
+.adddocpanel input[type="date"], input[type="time"]{
+    border: none;
+    border-bottom: 1px solid #12408f;
+    background: rgba(255, 255, 255, 0.8);
+    outline: none;
+    height: 30px;
+    color: #000;
+    font-size: 15px;
+}
+
+.adddocpanel select{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.adddocpanel input[type="submit"], input[type="reset"]{
+    width: 50%;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #002fff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    /*margin-left: 100px;
+    margin-right: 0px;*/
+}
+.adddocpanel input[type="submit"]:hover, input[type="reset"]:hover{
+    cursor: pointer;
+    background: #00fff0;
+    color: #000;
+}

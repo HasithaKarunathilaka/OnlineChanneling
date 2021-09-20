@@ -1,0 +1,46 @@
+-- "jdbc:derby://localhost:1527/ODC", "odc","odc"
+
+create table Doctor(
+	userName varchar(45),
+	name varchar(45),
+	specialization varchar(45),
+	phone int,
+	primary key(userName)
+);
+
+create table PATIENT(
+	NIC varchar(50),
+	name varchar(45),
+	phone int,
+	primary key(NIC)
+);
+
+create table SHEDULE(
+	doctorID varchar(45),
+	channelingDate date,
+	channelingTime varchar(50),
+	noOfPatients int,
+	primary key(doctorID,channelingDate),
+	foreign key(doctorID) references Doctor(userName)
+);
+
+create table APPOINTMENT(
+	patientID varchar(50),
+	doctorID varchar(50),
+	channelingDate date,
+	primary key(patientID,doctorID,channelingDate),
+	foreign key(patientID) references PATIENT(NIC),
+	foreign key(doctorID,channelingDate) references SHEDULE(doctorID,channelingDate)
+);
+
+create table USER_VAL(
+	userName varchar(50),
+	password varchar(50),
+	type varchar(50)
+);
+
+
+insert into PATIENT values('951234567V','Hasitha','0712623041');
+insert into USER_VAL values('951234567V','123','Patient');
+insert into Doctor values('D12','Saman Kumara','Surgery','0711234567');
+insert into USER_VAL values('D12','1234','Doctor');
