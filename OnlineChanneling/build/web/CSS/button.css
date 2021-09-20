@@ -1,0 +1,175 @@
+.add{
+   
+}/*
+.add input[type="button"]{
+    border-style: solid;
+    height: 40px;
+    background: #0012ff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}*/
+/*.add input[type="button"]:hover{
+    border-style: solid; 
+    cursor: pointer;
+    background: #00fff0;
+    color: #000;
+}*/
+
+.tableBox, .formBox{
+    width: max-content;
+    /*height: 420px;*/
+    background: rgba(255, 255, 255, 0.8);
+    color: #000000;
+    margin-top: 200px;
+    margin-left: 50%;
+    /*top: 20%;*/
+    /*left: 30%;*/
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.tableBox th, td{
+    text-align: left;
+    padding: 8px;
+}
+
+.tableBox th{
+    background-color: #18514a;
+    color: #FFFFFF;
+}
+
+.tableBox tr{
+    background-color: #FFFFFF;
+    color: #030303;
+}
+
+.tableBox tr:hover{
+    background-color: #d7d7d7;
+    color: #030303;
+}
+
+.tableBox input[type="submit"]{
+    width: 100%;
+    /*margin-top: 30px;*/
+    border: none;
+    outline: none;
+    height: 22px;
+    background: chartreuse;
+    color: #030303;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.tableBox input[type="button"]{
+    border: #000000;
+    outline: #000000;
+    border-style: solid;
+    border-width: 1px;
+    height: 40px;
+    background: #1F756A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tableBox input[type="submit"]:hover, input[type="button"]:hover{
+    cursor: pointer;
+    background: #00fff0;
+    color: #000;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.formBox td{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #000000;
+}
+.formBox input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.formBox input[type="date"], input[type="time"], input[type="number"], input[type="text"], select{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: #FFFFFF;
+    outline: none;
+    height: 35px;
+    color: #000;
+    font-size: 16px;
+}
+.formBox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0012ff;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 40px;
+    
+}
+.formBox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #00fff0;
+    color: #000;
+}
+
+.btnTable input[type="submit"]{
+    /*border: none;*/
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    height: auto;
+    width: auto;
+    background: teal;
+    color: #fff;
+    font-size: 13px; 
+    font-weight: normal;
+    border-radius: 10px; 
+    width: 100%; 
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 3px;
+}
+
+.btnTable input[type="submit"]:hover{
+    cursor: pointer;
+    background: #00fff0;
+    color: #000;
+}
+
+.btnUpdate input[type="submit"], input[type="button"]{
+    width: 120px;
+    margin-bottom: 1px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0012ff;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.btnUpdate input[type="button"]{
+    background: red;
+}
